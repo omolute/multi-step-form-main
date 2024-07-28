@@ -152,3 +152,51 @@ body{
 .nav a:nth-of-type(2):active{
     background-color: var(--purplish-blue);
 }
+@media(max-width:480px){
+    body{
+        padding: 1rem;
+        background-image:url('./assets/images/bg-sidebar-mobile.svg') ;
+        background-repeat: no-repeat;
+        font-size: 14px;
+    }
+    .main-container{
+        margin-top: 5rem;
+        width: 100%;
+        display: block;
+        padding: 2rem;
+    }
+    .dext_image{
+        display: none;
+    }
+    .sidebar-info{
+        margin-top: -5.6rem;
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        justify-content: center;
+        display: flex;
+    }
+    .step-texts p{
+        display: none;
+    }
+    .page-3 > h1{
+        font-size: 25px;
+    }
+    .page-3 > p{
+        font-size: 16px;
+    }
+    .add-options{
+        display: flex;
+        padding: 1rem;
+    }
+    .add-options input{
+        width: 5%;
+        height: 15px;
+        width: 15px;
+    }
+    .add-options div{
+        width: 70%;
+    }
+    .add-options > p{
+        width: 10%;
+    }
+}

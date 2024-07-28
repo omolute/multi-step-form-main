@@ -88,3 +88,33 @@ body{
     font-weight: 500;
     line-height: 25px;
 }
+@media(max-width:480px){
+    body{
+        padding: 1rem;
+        background-image:url('./assets/images/bg-sidebar-mobile.svg') ;
+        background-repeat: no-repeat;
+        font-size: 14px;
+    }
+    .main-container{
+        margin-top: 5rem;
+        width: 100%;
+        display: block;
+        padding: 2rem;
+    }
+    .dext_image{
+        display: none;
+    }
+    .sidebar-info{
+        margin-top: -5.6rem;
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        justify-content: center;
+        display: flex;
+    }
+    .step-texts p{
+        display: none;
+    }
+    .closing{
+        padding: 3rem 1rem;
+    }
+}
